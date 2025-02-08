@@ -16,10 +16,12 @@ interface Props {
       area1: {
         seccion: string;
         detail: string;
+        image: string;
       };
       area2: {
         seccion: string;
         detail: string;
+        image: string;
       };
     };
   };
@@ -53,7 +55,7 @@ function Resume(props: Props) {
               className=" hover:scale-125 transition-all group"
             >
               <img
-                src="/workana.png"
+                src={links.area1.image}
                 className="h-16 w-16  group-hover:fill-Hover"
               />
               <div className="text-center group-hover:text-Theme">
@@ -67,7 +69,7 @@ function Resume(props: Props) {
               className="hover:scale-125 transition-all group"
             >
               <img
-                src="/linkedin.png"
+                src={links.area2.image}
                 className="h-16 w-16  group-hover:fill-Hover"
               />
               <div className="text-center group-hover:text-Theme">

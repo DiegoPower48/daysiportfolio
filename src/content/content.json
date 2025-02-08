@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Diego Portfolio",
-    "description": "My portfolio created with Next.js and Tailwind CSS"
+    "title": "Daysi Portfolio",
+    "description": "Portfolio de Daysi Asca"
   },
   "Header": {
     "me": "Yo",
@@ -26,11 +26,13 @@
     "links": {
       "area1": {
         "seccion": "Workana",
-        "detail": "https://github.com/DiegoPower48"
+        "detail": "https://github.com/DiegoPower48",
+        "image": "/workana.png"
       },
       "area2": {
         "seccion": "Linkedin",
-        "detail": "https://www.linkedin.com/in/diego-arturo-torres-pacherres-440423242"
+        "detail": "https://www.linkedin.com/in/diego-arturo-torres-pacherres-440423242",
+        "image": "/linkedin.png"
       }
     }
   },
