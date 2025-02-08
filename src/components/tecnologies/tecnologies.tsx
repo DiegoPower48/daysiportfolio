@@ -1,6 +1,3 @@
-"use client";
-import { useState } from "react";
-
 import Item from "./item";
 
 interface Props {
@@ -32,22 +29,7 @@ interface data {
 }
 
 function Tecnologias(props: Props) {
-  const { title, frontend, backend, database, tools } = props.data;
-
-  const [mode, setMode] = useState(false);
-
-  const allTechnologies = [
-    ...frontend.technologies,
-    ...backend.technologies,
-    ...database.technologies,
-    ...tools.technologies,
-  ];
-
-  const duplicatedTechnologies = [...allTechnologies, ...allTechnologies];
-
-  const changeModal = () => {
-    setMode(!mode);
-  };
+  const { title, frontend } = props.data;
 
   return (
     <div className="w-full h-full grid grid-cols-1 grid-rows-[auto,auto,auto] gap-4">

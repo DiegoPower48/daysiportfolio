@@ -1,8 +1,3 @@
-import {
-  IconBrandGithubFilled,
-  IconBrandLinkedinFilled,
-} from "@tabler/icons-react";
-
 interface Props {
   data: {
     first: {
