@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "title": "Diego Portfolio",
+    "description": "My portfolio created with Next.js and Tailwind CSS"
+  },
+  "Header": {
+    "me": "Yo",
+    "about": "Quien soy",
+    "proyects": "Experiencia",
+    "technologies": "Herramientas",
+    "contact": "Contacto"
+  },
+  "Resume": {
+    "first": {
+      "name": "Daysi Asca",
+      "work": "Asistente virtual"
+    },
+    "second": {
+      "seccion": "Nacionalidad",
+      "detail": "Peruana"
+    },
+    "third": {
+      "seccion": "Telefono",
+      "detail": "+51 912655578"
+    },
+    "links": {
+      "area1": {
+        "seccion": "Workana",
+        "detail": "https://github.com/DiegoPower48"
+      },
+      "area2": {
+        "seccion": "Linkedin",
+        "detail": "https://www.linkedin.com/in/diego-arturo-torres-pacherres-440423242"
+      }
+    }
+  },
+
+  "Detail": {
+    "title": "Quien soy",
+    "about": "Soy un desarrollador web y móvil enfocado en crear aplicaciones de alto rendimiento que brinden las mejores experiencias de usuario. Mi experiencia se basa en el uso de las bibliotecas React y React Native para desarrollar aplicaciones responsivas, de carga rápida e intuitivas, adaptadas tanto para la web como para plataformas móviles.",
+    "about2": "Al aprovechar un conjunto diverso de herramientas y frameworks modernos, optimizo cada proyecto para reducir el tiempo de desarrollo sin comprometer la calidad."
+  },
+
+  "Proyects": {
+    "title": "Experiencia",
+    "experience": [
+      {
+        "work": "atento",
+        "duration": "2 años(2010-2012)",
+        "detail": "me desempeñe como operadora de atencion al cliente brindando ayuda sobre consultas akakkkakkakkakkkakkkkjasdjksajdklsajdklsj adlkjsakldjsalkdjsakljdklsajdlksjlkj",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM6zpRv-uS7b1qzwlV58Nz3tcRJZTNPtEGQ&s"
+      },
+      {
+        "work": "aegis",
+        "duration": "2 años(2010-2012)",
+        "detail": "me desempeñe como operadora de atencion al cliente brindando ayuda sobre consultas akakkkakkakkakkkakkkkjasdjksajdklsajdklsj adlkjsakldjsalkdjsakljdklsajdlksjlkj",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM6zpRv-uS7b1qzwlV58Nz3tcRJZTNPtEGQ&s"
+      },
+      {
+        "work": "conecta",
+        "duration": "2 años(2010-2012)",
+        "detail": "me desempeñe como operadora de atencion al cliente brindando ayuda sobre consultas akakkkakkakkakkkakkkkjasdjksajdklsajdklsj adlkjsakldjsalkdjsakljdklsajdlksjlkj",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM6zpRv-uS7b1qzwlV58Nz3tcRJZTNPtEGQ&s"
+      }
+    ]
+  },
+  "Technologies": {
+    "title": "Herramientas",
+    "frontend": {
+      "title": "Office",
+      "technologies": [
+        {
+          "url": "/word.svg",
+          "alt": "Word",
+          "style": "Icono1"
+        },
+        {
+          "url": "/excel.svg",
+          "alt": "Excel",
+          "style": "Icono2"
+        },
+        {
+          "url": "/javascript.svg",
+          "alt": "Javascript",
+          "style": "Icono3"
+        },
+        {
+          "url": "/react.svg",
+          "alt": "React",
+          "style": "Icono4"
+        },
+        {
+          "url": "/nextjs.svg",
+          "alt": "Nextjs",
+          "style": "Icono5"
+        },
+
+        {
+          "url": "/typescript.svg",
+          "alt": "Typescript",
+          "style": "Icono6"
+        },
+        {
+          "url": "/react.svg",
+          "alt": "React Native",
+          "style": "Icono7"
+        }
+      ]
+    },
+    "backend": {
+      "title": "Backend",
+      "technologies": [
+        {
+          "url": "/python.svg",
+          "alt": "Python",
+          "style": "Icono8"
+        },
+        {
+          "url": "/php.svg",
+          "alt": "PHP",
+          "style": "Icono9"
+        },
+
+        {
+          "url": "/laravel.svg",
+          "alt": "Laravel",
+          "style": "Icono10"
+        },
+        {
+          "url": "/nestjs.svg",
+          "alt": "NestJs",
+          "style": "Icono11"
+        }
+      ]
+    },
+    "database": {
+      "title": "Base de datos",
+      "technologies": [
+        {
+          "url": "/firebase.svg",
+          "alt": "Firebase",
+          "style": "Icono13"
+        },
+        {
+          "url": "/postgresql.svg",
+          "alt": "PostgreSQL",
+          "style": "Icono14"
+        },
+        {
+          "url": "/mysql.svg",
+          "alt": "MySQL",
+          "style": "Icono15"
+        },
+        {
+          "url": "/mongodb.svg",
+          "alt": "MongoDB",
+          "style": "Icono16"
+        }
+      ]
+    },
+    "tools": {
+      "title": "Herramientas",
+      "technologies": [
+        {
+          "url": "/bootstrap.svg",
+          "alt": "Bootstrap",
+          "style": "Icono17"
+        },
+
+        {
+          "url": "/tailwind.svg",
+          "alt": "Tailwind",
+          "style": "Icono18"
+        }
+      ]
+    }
+  },
+  "Comments": {
+    "title": "Dejame un mensaje",
+    "name": "Nombre",
+    "text": "Escribeme un mensaje"
+  }
+}
