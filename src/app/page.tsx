@@ -26,6 +26,7 @@ export default function Home() {
 
   return (
     <div
+      translate="no"
       className={`max-w-screen grid lg:grid-cols-[1fr,4fr] grid-cols-1 lg:bg-gradient-to-l lg:from-Background lg:via-Background lg:via-95% lg:to-Theme px-4 lg:pr-10 lg:pl-0 ${
         process.env.NEXT_PUBLIC_DEV_STATE ? "debug-screens" : ""
       }`}
