@@ -48,7 +48,9 @@ function Resume(props: Props) {
       <div className="h-full w-full grid grid-rows-[3fr,2fr,2fr] items-center justify-center p-5 ">
         <div className="h-full grid grid-rows-[3fr,1fr] font-bold items-center">
           <p className=" text-6xl text-center ">{first.name}</p>
-          <p className=" text-xl text-start text-Theme">{first.work}</p>
+          <p className=" text-xl lg:text-start text-center text-Theme">
+            {first.work}
+          </p>
         </div>
         <div className="w-full grid gap-2 justify-start">
           <div className="flex space-x-3 ">

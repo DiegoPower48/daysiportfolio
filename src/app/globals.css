@@ -6,8 +6,8 @@
   --textColor: #ededed;
   /*Tailwind*/
   --background: #051e44;
-  --theme: yellow;
-  --hover: yellow;
+  --theme: gold;
+  --hover: gold;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,8 +15,8 @@
     --textColor: #ededed;
     /*Tailwind*/
     --background: #051e44;
-    --theme: yellow;
-    --hover: yellow;
+    --theme: gold;
+    --hover: gold;
   }
 }
 
