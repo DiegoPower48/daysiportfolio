@@ -18,7 +18,7 @@ export default function Item(props: ItemProps) {
           <img className="h-12 w-12 lg:h-16 lg:w-16" src={url} alt={alt} />
         </div>
 
-        <div className="h-full grid justify-center lg:font-bold text-xs text-pretty">
+        <div className="h-full grid justify-center lg:font-bold text-xs text-pretty text-center">
           {alt}
         </div>
       </span>

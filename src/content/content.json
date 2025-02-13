@@ -28,12 +28,12 @@
     "links": {
       "area1": {
         "seccion": "Workana",
-        "detail": "https://github.com/DiegoPower48",
+        "detail": "https://www.workana.com/freelancer/027d3c32b8fa2a2accb1a320f967ea24",
         "image": "/workana.png"
       },
       "area2": {
         "seccion": "Linkedin",
-        "detail": "https://www.linkedin.com/in/diego-arturo-torres-pacherres-440423242",
+        "detail": "www.linkedin.com/in/daysi-asca-b9a119219/",
         "image": "/linkedin.png"
       }
     }
@@ -70,95 +70,55 @@
   },
   "Technologies": {
     "title": "Herramientas",
-    "frontend": {
+    "first": {
       "title": "Ofimatica",
       "technologies": [
         {
           "url": "/word.svg",
-          "alt": "Word",
-          "style": "Icono1"
+          "alt": "Word"
         },
         {
           "url": "/excel.svg",
-          "alt": "Excel",
-          "style": "Icono2"
+          "alt": "Excel"
         },
         {
-          "url": "/javascript.svg",
-          "alt": "Javascript",
-          "style": "Icono3"
-        },
-        {
-          "url": "/react.svg",
-          "alt": "React",
-          "style": "Icono4"
-        },
-        {
-          "url": "/nextjs.svg",
-          "alt": "Nextjs",
-          "style": "Icono5"
-        },
-
-        {
-          "url": "/typescript.svg",
-          "alt": "Typescript",
-          "style": "Icono6"
-        },
-        {
-          "url": "/react.svg",
-          "alt": "React Native",
-          "style": "Icono7"
+          "url": "/outlook.svg",
+          "alt": "Outlook"
         }
       ]
     },
-    "backend": {
-      "title": "Backend",
+    "second": {
+      "title": "Comunicación",
       "technologies": [
         {
-          "url": "/python.svg",
-          "alt": "Python",
-          "style": "Icono8"
+          "url": "/zoom.svg",
+          "alt": "Zoom"
         },
         {
-          "url": "/php.svg",
-          "alt": "PHP",
-          "style": "Icono9"
+          "url": "/skype.svg",
+          "alt": "Skype"
         },
 
         {
-          "url": "/laravel.svg",
-          "alt": "Laravel",
-          "style": "Icono10"
-        },
-        {
-          "url": "/nestjs.svg",
-          "alt": "NestJs",
-          "style": "Icono11"
+          "url": "/teams.svg",
+          "alt": "Teams"
         }
       ]
     },
-    "database": {
-      "title": "Base de datos",
+    "third": {
+      "title": "Gestion de tareas",
       "technologies": [
         {
-          "url": "/firebase.svg",
-          "alt": "Firebase",
-          "style": "Icono13"
+          "url": "/Todo.svg",
+          "alt": "Microsoft To do"
         },
         {
-          "url": "/postgresql.svg",
-          "alt": "PostgreSQL",
-          "style": "Icono14"
+          "url": "/Trello.svg",
+          "alt": "Trello"
         },
         {
-          "url": "/mysql.svg",
-          "alt": "MySQL",
-          "style": "Icono15"
-        },
-        {
-          "url": "/mongodb.svg",
-          "alt": "MongoDB",
-          "style": "Icono16"
+          "url": "/canva.svg",
+          "alt": "Canva"
         }
       ]
     },
