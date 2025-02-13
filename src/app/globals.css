@@ -10,16 +10,13 @@
   --hover: orange;
 }
 
-/* Tema: #10b981 */
-/* hover: #006045 */
-
 @media (prefers-color-scheme: dark) {
   :root {
     --textColor: #ededed;
     /*Tailwind*/
-    --background: #0a0a0a;
-    --theme: #10b981;
-    --hover: #006045;
+    --background: #051e44;
+    --theme: yellow;
+    --hover: yellow;
   }
 }
 

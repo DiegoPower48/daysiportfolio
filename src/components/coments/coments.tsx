@@ -60,7 +60,7 @@ function Comentarios(props: Props) {
         <textarea
           autoCorrect="false"
           id="comentarios"
-          className={`w-full h-40  rounded-xl p-4 resize-none outline-none bg-transparent textarea focus:border-Theme z-50  border-Hover border-2`}
+          className={` w-full h-40  rounded-xl p-4 resize-none outline-none bg-transparent textarea focus:border-Theme z-50  border-Hover border-2`}
           required
           {...register("comentario", { required: true })}
         ></textarea>
@@ -71,7 +71,7 @@ function Comentarios(props: Props) {
 
       <button
         type="submit"
-        className="h-12 w-full grid items-center font-bold text-xl justify-center bg-Theme hover:bg-Hover rounded-xl"
+        className="text-Background  h-12 w-full grid items-center font-bold text-xl justify-center bg-Theme hover:bg-Hover rounded-xl"
       >
         Enviar
       </button>

@@ -1,3 +1,5 @@
+"use client";
+
 interface Props {
   data: {
     first: {
@@ -12,6 +14,8 @@ interface Props {
       seccion: string;
       detail: string;
     };
+    foto: string;
+    button: string;
     links: {
       area1: {
         seccion: string;
@@ -28,12 +32,21 @@ interface Props {
 }
 
 function Resume(props: Props) {
-  const { first, second, third, links } = props.data;
+  const { first, second, third, links, foto, button } = props.data;
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/cv.doc";
+    link.download = "DaysiAscaCV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <div className="h-full w-full grid grid-rows-[auto,auto] grid-cols-1 md:grid-rows-1 md:grid-cols-[3fr,4fr] items-center justify-center">
       <div className="h-full w-full grid grid-rows-[3fr,2fr,2fr] items-center justify-center p-5 ">
-        <div className="h-full grid grid-rows-[3fr,1fr] gap-7 font-bold items-center">
+        <div className="h-full grid grid-rows-[3fr,1fr] font-bold items-center">
           <p className=" text-6xl text-center ">{first.name}</p>
           <p className=" text-xl text-start text-Theme">{first.work}</p>
         </div>
@@ -80,12 +93,18 @@ function Resume(props: Props) {
         </div>
       </div>
 
-      <div className="grid items-center justify-center p-5">
+      <div className="grid items-center justify-center p-5 gap-y-10">
         <img
-          src="https://i.ibb.co/drwFYjN/me.jpg"
-          className="sm:h-96 sm:w-96 rounded-full"
+          src={foto}
+          className="sm:h-80 sm:w-80 rounded-full border-4 border-Theme"
           alt="foto"
         />
+        <div
+          onClick={handleDownload}
+          className="p-2 bg-Theme text-Background  rounded-xl font-bold flex justify-center active:scale-105"
+        >
+          {button}
+        </div>
       </div>
     </div>
   );

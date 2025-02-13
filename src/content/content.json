@@ -23,6 +23,8 @@
       "seccion": "Telefono",
       "detail": "+51 912655578"
     },
+    "button": "Descargar CV",
+    "foto": "/foto.jpeg",
     "links": {
       "area1": {
         "seccion": "Workana",
@@ -38,38 +40,38 @@
   },
 
   "Detail": {
-    "title": "Quien soy",
-    "about": "Soy un desarrollador web y móvil enfocado en crear aplicaciones de alto rendimiento que brinden las mejores experiencias de usuario. Mi experiencia se basa en el uso de las bibliotecas React y React Native para desarrollar aplicaciones responsivas, de carga rápida e intuitivas, adaptadas tanto para la web como para plataformas móviles.",
-    "about2": "Al aprovechar un conjunto diverso de herramientas y frameworks modernos, optimizo cada proyecto para reducir el tiempo de desarrollo sin comprometer la calidad."
+    "title": "Sobre mi",
+    "about": "Hola, soy Daysi Asca, una profesional con más de 15 años de experiencia en atención al cliente y ventas. Me especializo en brindar un servicio de alta calidad a clientes de diferentes países, adaptando soluciones a sus necesidades y asegurando su satisfacción. A lo largo de mi trayectoria, he trabajado en diversas campañas internacionales, lo que me ha permitido desarrollar una comunicación efectiva y una gran capacidad de adaptación.",
+    "about2": "Soy una persona comprometida y apasionada por mi trabajo, siempre enfocada en ofrecer la mejor experiencia a cada cliente. Me encantaría conversar sobre cómo puedo aportar valor a su empresa."
   },
 
   "Proyects": {
-    "title": "Experiencia",
+    "title": "Experiencia:",
     "experience": [
       {
-        "work": "atento",
-        "duration": "2 años(2010-2012)",
-        "detail": "me desempeñe como operadora de atencion al cliente brindando ayuda sobre consultas akakkkakkakkakkkakkkkjasdjksajdklsajdklsj adlkjsakldjsalkdjsakljdklsajdlksjlkj",
+        "work": "Atento",
+        "duration": "6 meses (09/2008-03/2009)",
+        "detail": "Brindé asistencia al público español, proporcionando información detallada sobre el servicio de Telefónica. Atendía consultas, resolvía inconvenientes y ofrecía soporte en temas de facturación, fallas del servicio y compras adicionales, asegurando una atención eficiente y personalizada para cada cliente.",
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM6zpRv-uS7b1qzwlV58Nz3tcRJZTNPtEGQ&s"
       },
       {
-        "work": "aegis",
-        "duration": "2 años(2010-2012)",
-        "detail": "me desempeñe como operadora de atencion al cliente brindando ayuda sobre consultas akakkkakkakkakkkakkkkjasdjksajdklsajdklsj adlkjsakldjsalkdjsakljdklsajdlksjlkj",
-        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM6zpRv-uS7b1qzwlV58Nz3tcRJZTNPtEGQ&s"
+        "work": "Aegis Perú",
+        "duration": "2 años y 4 meses (01/2016-05/2018)",
+        "detail": "Atención al cliente para el público argentino. Brindamos asistencia en facturación, recargas, gestión y uso de la aplicación, además de responder cualquier consulta adicional sobre nuestro servicio.",
+        "imagen": "/work2.jpeg"
       },
       {
-        "work": "conecta",
-        "duration": "2 años(2010-2012)",
-        "detail": "me desempeñe como operadora de atencion al cliente brindando ayuda sobre consultas akakkkakkakkakkkakkkkjasdjksajdklsajdklsj adlkjsakldjsalkdjsakljdklsajdlksjlkj",
-        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM6zpRv-uS7b1qzwlV58Nz3tcRJZTNPtEGQ&s"
+        "work": "SCC Perú",
+        "duration": "1 año y 5 meses (04/2022-09/2023)",
+        "detail": "Brindé soporte para la empresa Entel Chile, asistiendo a los clientes en la revisión y detalle de facturas, cobros adicionales y consultas sobre saldos y promociones. Además, resolví problemas técnicos y proporcioné información sobre los servicios más adecuados a sus necesidades, siempre con el objetivo de garantizar su tranquilidad y satisfacción.",
+        "imagen": "/work3.webp"
       }
     ]
   },
   "Technologies": {
     "title": "Herramientas",
     "frontend": {
-      "title": "Office",
+      "title": "Ofimatica",
       "technologies": [
         {
           "url": "/word.svg",
@@ -178,7 +180,7 @@
     }
   },
   "Comments": {
-    "title": "Dejame un mensaje",
+    "title": "Dejame un mensaje:",
     "name": "Nombre",
     "text": "Escribeme un mensaje"
   }
