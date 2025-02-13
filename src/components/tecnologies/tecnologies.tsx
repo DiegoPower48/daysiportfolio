@@ -3,19 +3,15 @@ import Item from "./item";
 interface Props {
   data: {
     title: string;
-    frontend: {
+    first: {
       title: string;
       technologies: data[];
     };
-    backend: {
+    second: {
       title: string;
       technologies: data[];
     };
-    database: {
-      title: string;
-      technologies: data[];
-    };
-    tools: {
+    third: {
       title: string;
       technologies: data[];
     };
