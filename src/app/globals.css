@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --textColor: #171717;
+  --textColor: #ededed;
   /*Tailwind*/
-  --background: #ededed;
-  --theme: red;
-  --hover: orange;
+  --background: #051e44;
+  --theme: yellow;
+  --hover: yellow;
 }
 
 @media (prefers-color-scheme: dark) {
