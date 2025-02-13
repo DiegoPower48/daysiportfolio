@@ -21,7 +21,6 @@ interface Props {
 interface data {
   url: string;
   alt: string;
-  style: string;
 }
 
 function Tecnologias(props: Props) {
