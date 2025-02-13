@@ -109,11 +109,11 @@
       "title": "Gestion de tareas",
       "technologies": [
         {
-          "url": "/Todo.svg",
+          "url": "/todo.svg",
           "alt": "Microsoft To do"
         },
         {
-          "url": "/Trello.svg",
+          "url": "/trello.svg",
           "alt": "Trello"
         },
         {

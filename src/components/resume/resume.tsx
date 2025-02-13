@@ -103,7 +103,7 @@ function Resume(props: Props) {
         />
         <div
           onClick={handleDownload}
-          className="p-2 bg-Theme text-Background  rounded-xl font-bold flex justify-center active:scale-105"
+          className="p-2 bg-Theme text-Background  rounded-xl font-bold flex justify-center active:scale-105 hover:scale-105"
         >
           {button}
         </div>
